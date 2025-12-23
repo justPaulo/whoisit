@@ -153,12 +153,12 @@ sequenceDiagram
     Graph->>API: GET /users?$filter=employeeId eq 'ABCD9999'
     API-->>Graph: User Details
     Graph->>API: GET /users/{id}/manager
-    API-->>>API: GET /users/{id}/photo/$value (if -p flag)
+    API-->>Graph: Manager Data
+    Graph->>API: GET /users/{id}/photo/$value (if -p flag)
     API-->>Graph: Profile Photo Stream
     Graph-->>CLI: Combined User Data
-    CLI->>Output: Process & Format
     CLI->>CLI: Save Photo to ./photos/ (if -p flag)
-    CLI->>CLI: Display Inline Photo if iTerm2 (macOS)ta
+    CLI->>CLI: Display Inline Photo if iTerm2 (macOS)
     CLI->>Output: Process & Format
     Output->>Output: Parse Display Name<br/>(Extract Org Code)
     Output->>Output: Apply Tree Indentation
