@@ -326,5 +326,3 @@ dotnet publish -c Release -r win-arm64 \
 1. **Team Visualization**: Fetch and display direct reports
 2. **Configuration File**: Custom field selection via config
 3. **Offline Mode**: Cache for limited offline functionality
-4. **Group Membership**: Display security and distribution groups
-5. ***
