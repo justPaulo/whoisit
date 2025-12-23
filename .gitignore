@@ -1,0 +1,47 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosslcache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Publish profiles
+PublishProfiles/
+*.pubxml
+*.publishproj
+
+# Azure
+*.azurePubxml
+
+# User secrets
+appsettings.Development.json
+secrets.json
