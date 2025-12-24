@@ -310,7 +310,7 @@ Searching for user with UId: ABCD9999...
 ╚═══════════════════════════════════════════════════════════════╝
 
   Name:              Max Mustermann
-  OrgCode:           SI BP
+  OrgCode:           ON RST
   Email:             jane.doe@somecompany.com
   UId:               ABCD9999
   Job Title:         Software Engineer
@@ -319,9 +319,9 @@ Searching for user with UId: ABCD9999...
   Mobile Phone:      +351 123456789
   Business Phone:    +351 987654321
   User Principal:    jane.doe@somecompany.com
-  Manager:           John Doe (Z000ABCD)
+  Manager:           John Doe (ABCD9998)
 
-✓ Command copied to clipboard: whoisit Z000ABCD
+✓ Command copied to clipboard: whoisit ABCD9998
 
 📋 To lookup manager, paste and run the command from clipboard
 ```
@@ -338,7 +338,7 @@ Searching for user with UId: ABCD9999...
 ╚═══════════════════════════════════════════════════════════════╝
 
   Name:              Max Mustermann
-  OrgCode:           SI BP
+  OrgCode:           ON RST
   Email:             jane.doe@somecompany.com
   UId:               ABCD9999
   Job Title:         Software Engineer
@@ -347,32 +347,32 @@ Searching for user with UId: ABCD9999...
   Mobile Phone:      +351 123456789
   Business Phone:    +351 987654321
   User Principal:    jane.doe@somecompany.com
-  Manager:           John Doe (Z000ABCD)
+  Manager:           John Doe (ABCD9998)
 
 ════════════════════════════════════════════════════════════════
 
   ↑ Manager at level 1
 
-  Searching for user with UId: Z000ABCD...
+  Searching for user with UId: ABCD9998...
 
   ╔═══════════════════════════════════════════════════════════════╗
   ║                        USER DETAILS                           ║
   ╚═══════════════════════════════════════════════════════════════╝
 
     Name:              John Doe
-    OrgCode:           SI IT
+    OrgCode:           IT DPT
     Email:             john.doe@somecompany.com
-    UId:               Z000ABCD
+    UId:               ABCD9998
     Job Title:         Engineering Manager
     Department:        IT
     [... manager details ...]
-    Manager:           Jane Smith (Z999AAAA)
+    Manager:           Jane Smith (ABCD9997)
 
   ════════════════════════════════════════════════════════════════
 
     ↑ Manager at level 2
 
-    Searching for user with UId: Z999AAAA...
+    Searching for user with UId: ABCD9997...
 
     ╔═══════════════════════════════════════════════════════════════╗
     ║                        USER DETAILS                           ║
@@ -381,7 +381,7 @@ Searching for user with UId: ABCD9999...
       Name:              Jane Smith
       OrgCode:           SI
       Email:             jane.smith@somecompany.com
-      UId:               Z999AAAA
+      UId:               ABCD9997
       Job Title:         Director of Engineering
       Department:        IT
       [... director details ...]
@@ -402,8 +402,8 @@ Searching for user with UId: ABCD9999...
 ║                        USER DETAILS                           ║
 ╚═══════════════════════════════════════════════════════════════╝
 
-  Name:              Max Mustermann
-  OrgCode:           SI BP
+  Name:              Jane Doe
+  OrgCode:           ON RST
   Email:             jane.doe@somecompany.com
   UId:               ABCD9999
   [... additional details ...]
@@ -417,7 +417,7 @@ Searching for user with UId: Z034EFGH...
 ╚═══════════════════════════════════════════════════════════════╝
 
   Name:              Jane Doe
-  OrgCode:           SI IT
+  OrgCode:           IT DPT
   Email:             jane.doe@somecompany.com
   UId:               Z034EFGH
   [... additional details ...]
@@ -438,9 +438,9 @@ Searching for user with email: jane.doe@somecompany.com...
   Surname:           Nascimento
   Company:           somecompany.com
   Employee Type:     Employee
-  Hire Date:         2020-01-15
+  Hire Date:         2000-05-15
   Account Enabled:   Yes
-  Created:           2020-01-10
+  Created:           2000-05-10
 
   Street Address:    123 Main Street
   City:              Lisbon
@@ -458,7 +458,7 @@ $ whoisit ABCD9999
 
 [... user details displayed ...]
 
-✓ Command copied to clipboard: whoisit Z000ABCD
+✓ Command copied to clipboard: whoisit ABCD9998
 
 📋 To lookup manager, paste and run the command from clipboard
 ```
