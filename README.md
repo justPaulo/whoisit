@@ -309,7 +309,7 @@ Searching for user with UId: ABCD9999...
 ║                        USER DETAILS                           ║
 ╚═══════════════════════════════════════════════════════════════╝
 
-  Name:              Max Mustermann
+  Name:              Jane Doe
   OrgCode:           ON RST
   Email:             jane.doe@somecompany.com
   UId:               ABCD9999
@@ -337,7 +337,7 @@ Searching for user with UId: ABCD9999...
 ║                        USER DETAILS                           ║
 ╚═══════════════════════════════════════════════════════════════╝
 
-  Name:              Max Mustermann
+  Name:              Jane Doe
   OrgCode:           ON RST
   Email:             jane.doe@somecompany.com
   UId:               ABCD9999
