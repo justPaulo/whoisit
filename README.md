@@ -205,7 +205,7 @@ Process multiple users by piping UIds or emails via stdin:
 cat batch.csv | whoisit
 
 # From echo with multiple entries
-echo -e "ABCD9999\nZ034EFGH\nZ056IJKL" | whoisit
+echo -e "ABCD9999\nABCD1234\nABCD1010" | whoisit
 
 # With extended information
 cat batch.csv | whoisit -x
@@ -410,7 +410,7 @@ Searching for user with UId: ABCD9999...
 
 ════════════════════════════════════════════════════════════════
 
-Searching for user with UId: Z034EFGH...
+Searching for user with UId: ABCD1234...
 
 ╔═══════════════════════════════════════════════════════════════╗
 ║                        USER DETAILS                           ║
@@ -419,7 +419,7 @@ Searching for user with UId: Z034EFGH...
   Name:              Jane Doe
   OrgCode:           IT DPT
   Email:             jane.doe@somecompany.com
-  UId:               Z034EFGH
+  UId:               ABCD1234
   [... additional details ...]
 ```
 
