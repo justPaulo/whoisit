@@ -127,6 +127,9 @@ whoisit <UId|EMAIL>
 # Query by UId
 whoisit ABCD9999
 
+# Query by UId (nerd mode...)
+whoisit `whoami`
+
 # Query by email
 whoisit jane.doe@somecompany.com
 
